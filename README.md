@@ -1,13 +1,13 @@
 # Linux-Audit-Tool_V2.0
 
-🛡️ Linux Security Audit Tool
+# 🛡️ Linux Security Audit Tool
 
 A comprehensive Bash-based Linux Security Auditing Tool designed to analyze system security, network configuration, firewall rules, running services, and open ports, and generate a detailed security report in a single execution.
 
 This project is ideal for students, system administrators, cybersecurity learners, and Linux enthusiasts who want an automated way to assess Linux security posture.
 
-📌 Features
-🔐 System Security Audit
+# 📌 Features
+## 🔐 System Security Audit
 
 User account and password policy analysis
 
@@ -27,7 +27,7 @@ Cron job inspection
 
 SELinux & AppArmor status
 
-🌐 Network Security Audit
+## 🌐 Network Security Audit
 
 Network interface and IP configuration
 
@@ -41,7 +41,7 @@ ARP table inspection
 
 Network statistics and traffic summary
 
-🔍 Port Scanning & Service Analysis
+## 🔍 Port Scanning & Service Analysis
 
 Nmap-based port scanning (TCP & UDP)
 
@@ -51,7 +51,7 @@ Process-to-port mapping
 
 Fallback scanning if nmap is unavailable
 
-📄 Reporting
+## 📄 Reporting
 
 Automatically generates a timestamped audit report
 
@@ -61,7 +61,7 @@ Security findings and recommendations summary
 
 Progress indicator and colored terminal output
 
-🧰 Requirements
+## 🧰 Requirements
 
 Linux OS (Debian, Ubuntu, RHEL, CentOS, Arch, etc.)
 
@@ -81,7 +81,7 @@ auditd (for audit checks)
 
 ⚠️ Root privileges are strongly recommended for full audit coverage.
 
-🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
@@ -93,7 +93,7 @@ Make the script executable:
 
 chmod +x linux_audit.sh
 
-▶️ Usage
+## ▶️ Usage
 Run normally
 ./linux_audit.sh
 
@@ -109,7 +109,7 @@ Verbose mode
 Quiet mode
 ./linux_audit.sh --quiet
 
-📂 Output
+## 📂 Output
 
 Audit reports are saved automatically with timestamps:
 
@@ -128,13 +128,13 @@ Security recommendations
 
 Audit duration and summary
 
-📊 Sample Audit Sections
+## 📊 Sample Audit Sections
 1. SYSTEM SECURITY AUDIT
 2. NETWORK SECURITY AUDIT
 3. PORT SCANNING ANALYSIS
 4. SECURITY SUMMARY & RECOMMENDATIONS
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 Some checks require root access
 
@@ -144,7 +144,7 @@ Script is designed for local host auditing only
 
 Large filesystems may increase execution time
 
-🎯 Use Cases
+## 🎯 Use Cases
 
 Linux security assessment
 
@@ -156,19 +156,19 @@ Pre-deployment security checks
 
 Learning Linux internals and auditing concepts
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Moksh Sharma
 Version: 2.0
 
 🔗 GitHub: https://github.com/MokshSharma2006
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with proper attribution.
 
-⭐ Future Enhancements (Planned)
+## ⭐ Future Enhancements (Planned)
 
 CVE vulnerability lookup
 
@@ -180,7 +180,7 @@ Remote host auditing
 
 Docker & container security checks
 
-⭐ Support
+## ⭐ Support
 
 If you find this project helpful:
 
