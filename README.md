@@ -85,7 +85,7 @@ auditd (for audit checks)
 
 Clone the repository:
 
-git clone https://github.com/MokshSharma2006/Linux-Audit-Tool.git
+git clone https://github.com/MokshSharma2006/Linux-Audit-Tool_V2.0.git
 cd Linux-Audit-Tool
 
 
